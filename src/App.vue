@@ -3,6 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <h3>{{ $store.state.count }}</h3>
     </div>
     <router-view />
   </div>
